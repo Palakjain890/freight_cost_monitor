@@ -1,0 +1,7 @@
+Note retrieval evaluation
+
+The automated labeled evaluation in tests/test_analysis.py checks 12 cases covering valid route/date matches, out-of-window cases, wrong-route cases, the nationwide fuel note and its 5-7% condition, and notes that do not support a cost increase.
+
+Correct note ID or blank result: 12 / 12 cases (100%).
+
+This checks the deterministic note retrieval policy, not anomaly detection accuracy against independent labels. Numeric pipeline checks are covered by the unit tests for week grouping, aggregation, baseline windows, and peer exclusion.

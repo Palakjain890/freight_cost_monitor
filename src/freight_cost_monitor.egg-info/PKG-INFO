@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: freight-cost-monitor
+Version: 1.0.0
+Summary: Deterministic weekly freight cost monitoring and note-grounded explanations
+Requires-Python: >=3.9
+Dynamic: requires-python

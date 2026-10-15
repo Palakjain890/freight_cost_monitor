@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+src/freight_cost_monitor/__init__.py
+src/freight_cost_monitor/analysis.py
+src/freight_cost_monitor/cli.py
+src/freight_cost_monitor/csv_io.py
+src/freight_cost_monitor/models.py
+src/freight_cost_monitor/notes.py
+src/freight_cost_monitor.egg-info/PKG-INFO
+src/freight_cost_monitor.egg-info/SOURCES.txt
+src/freight_cost_monitor.egg-info/dependency_links.txt
+src/freight_cost_monitor.egg-info/entry_points.txt
+src/freight_cost_monitor.egg-info/top_level.txt
+tests/test_analysis.py

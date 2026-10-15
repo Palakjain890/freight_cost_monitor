@@ -1,0 +1,2 @@
+[console_scripts]
+freight-cost-monitor = freight_cost_monitor.cli:main

@@ -1,0 +1,10 @@
+Reproducibility check
+
+Input: data/shipment_records.csv and data/context_notes.csv
+Command: PYTHONPATH=src python3 -m freight_cost_monitor.cli --output <run-file>
+Runs: 3
+Result: all three CSV files were byte-for-byte identical (cmp succeeded).
+Rows: 728 route-weeks
+Unexplained flags: 81
+Note-justified increases: 9
+SHA-256: dd633d683697b78beb15eed2c864c52bd187bd7de7e054d2cedb381ebb307230
